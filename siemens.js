@@ -3,11 +3,11 @@
 // }
 
 // let x = 3;
-// const y = x++;
+// let y = x++;
 // console.log(`x:${x}, y:${y}`);
  
 // let x = 3;
-// const y = ++x;
+// let y = ++x;
 // console.log(`x:${x}, y:${y}`);
 
 // for (var i = 0; i < 1000; i++) {
@@ -32,7 +32,7 @@
 // console.log(typeof null);
 // console.log(typeof undefined);
 
-let a = 10;
+// let a = 10;
 
-a++;
-console.log(a);
+// a++;
+// console.log(a);

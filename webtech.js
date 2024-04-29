@@ -5,13 +5,13 @@
 
 let limit = 5
 
-for (let i=0; i < limit; i++) {
+for (let i=0; i < 5; i++) {
 
  setTimeout(()=> {
 
  console.log(limit);
 
- }, 10000)
+ }, 10)
 
 }
 

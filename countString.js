@@ -8,4 +8,7 @@ for(let i =0;i<b.length;i++){
         obj[b[i]] = obj[b[i]] +1
     }
 }
+
+
+
 console.log(obj)

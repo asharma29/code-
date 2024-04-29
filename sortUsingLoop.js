@@ -16,7 +16,7 @@ function bubbleSort(arr) {
   }
   
   // Example usage:
-  var numbers = [5, 3, 8, 2, 1, 4];
+  var numbers = ['2', '1', '3', '10', '3', '5'];
   console.log("Original array:", numbers);
   var sortedNumbers = bubbleSort(numbers);
   console.log("Sorted array:", sortedNumbers);
