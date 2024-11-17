@@ -5,4 +5,6 @@ let b = a.sort((a, b) => {
 })
 let n = b.length;
 
+
+
 console.log(b[n-2])
