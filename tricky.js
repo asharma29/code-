@@ -25,26 +25,37 @@
 // console.log("world");
 
 
-function fun (){
-    let count = 0 ; 
-    function increment (){
-      count ++
-    }
-    let message = `Count is ${count}`;
+// function fun (){
+//     let count = 0 ; 
+//     function increment (){
+//       count ++
+//     }
+//     let message = `Count is ${count}`;
   
-    function log(){
-      console.log(message)
-    }
-    return [increment , log];
-  }
-  const [increment , log] = fun();
-  increment();
-  increment();
-  increment();
-  log();
+//     function log(){
+//       console.log(message)
+//     }
+//     return [increment , log];
+//   }
+//   const [increment , log] = fun();
+//   increment();
+//   increment();
+//   increment();
+//   log();
   
   
   
+let arr = [1 ,2 ,3];
+
+let newArr = arr.map((ele) => ele *2);
+
+newArr.push(4);
+
+arr[0] = 0;
+
+console.log(arr); // 0 ,2,3
+
+console.log(newArr);  // 2 , 4 , 6 , 4
   
   
   
